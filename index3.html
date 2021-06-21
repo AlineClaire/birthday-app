@@ -16,7 +16,7 @@
         <main class="container mt-5">
             <header>
                 <h1>Ajouter un anniversaire</h1>
-                <h4 class="lead">v.1.0</h4>
+                <h4 class="lead">v.1.3</h4>
             </header>
 
             <form>
@@ -30,8 +30,8 @@
                     <input type="text" class="form-control" id="prenom" />
                 </div>
                 <div class="mb-3">
-                    <label for="prenom" class="form-label">Couleur du prenom</label>
-                    <input type="color" class="form-control w-25" id="color" />
+                    <label for="color" class="form-label">Couleur du prenom</label>
+                    <input data-jscolor="" class="form-control w-25" id="color" />
                 </div>
 
                 <button type="submit" class="btn btn-primary">Envoyer</button>
@@ -39,7 +39,8 @@
             </form>
             <section></section>
         </main>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer">
+        <script src=lib/jscolor.min.js> </script> <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer">
         </script>
         <script src="script.js"></script>
 
